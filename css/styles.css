@@ -22,3 +22,7 @@ pre {
     border: 2px solid #f4f4f93b;
     border-radius: 8px;
 }
+
+header{
+    max-width: 96%;
+}
