@@ -1,0 +1,28 @@
+.input-container {
+    position: relative;
+    width: 300px;
+  }
+
+  /* Estilo del input */
+  input{
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid #586F7C;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: 0.3s ease;
+    outline: none;
+    background-color: #B8D8D9;
+    box-shadow: inset 0 0 8px #586F7C;
+  }
+
+  /* Cambios en el borde y sombra cuando el input esta enfocado */
+  input:focus {
+    border-color: #586F7C;
+    box-shadow: 0 0 12px #B8D8D9;
+  }
+
+  /* Placeholder estilizado */
+  input::placeholder {
+    color: #586F7C;
+  }
