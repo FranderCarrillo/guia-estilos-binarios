@@ -1,0 +1,72 @@
+a{
+    color:#F4F4F9;
+    margin-left: 20px;
+}
+
+/*Efecto*/
+.modalmask {
+    position: fixed;
+    color: #030014;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+/*Formato de la ventana*/
+.modalbox{
+    width: 400px;
+    position:relative;
+    padding: 5px 20px 13px 20px;
+    background-color: #B8D8D9;
+    box-shadow: inset 0 0 10px #586F7C;
+    border-radius:6px; 
+    border:3px solid #586F7C;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
+
+.resize {
+    margin: 10% auto;
+    width:0;
+    height:0;
+ 
+}
+ 
+.modalmask:target .resize{
+    width:400px;
+    height:200px;
+}
+
+/*Boton de cerrar*/
+.close {
+    background: #586F7C;
+    color:#F4F4F9;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:3px;
+ 
+}
+ 
+.close:hover {
+    background: #F85A4F;
+    color:#030014;
+}
