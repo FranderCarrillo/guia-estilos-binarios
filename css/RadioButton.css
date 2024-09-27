@@ -1,0 +1,62 @@
+.radio-section {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;   Centrar los radio buttons en el contenedor */
+    height: auto;             /* Permite que la altura se ajuste automáticamente */
+    max-width: 400px;         /* Establece un ancho máximo para la sección */
+    /*margin: 0 auto;            Centra la sección dentro de su contenedor padre */
+    /*padding: 20px;             Espaciado interno */
+    box-sizing: border-box;    /* Asegura que el padding se incluya en el ancho total */
+    /*background-color: #f4f4f9;  Fondo opcional para visualizar el contenedor */
+    /*border: 2px solid #586F7C;  Borde opcional */
+    border-radius: 12px;       /* Bordes redondeados */
+}
+
+.radio-list {
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;           Permite que los radio buttons se ajusten a una nueva fila si es necesario */
+    /*justify-content: center;   Centra los elementos en el eje horizontal */
+    gap: 34px;                 /* Espaciado entre los radio buttons */
+    /* padding: 10px; */
+    margin: 16px;
+}
+
+.radio-item label {
+    padding: 12px 25px;       /* Ajusta el padding interno */
+    min-width: 200px;         /* Ancho mínimo más reducido */
+    background: #030014;
+    border: 2px solid #f4f4f93b;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    white-space: nowrap;
+    transition: 0.3s ease-in-out 0s;
+}
+
+.radio-item [type="radio"] {
+    display: none;
+}
+
+.radio-item label:before {
+    background: #B8DBD9;
+    height: 20px;
+    width: 20px;
+    left: 21px;
+    top: calc(50%-5px);
+    transform: scale(2);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s ease-in-out 0s;
+}
+
+.radio-item [type="radio"]:checked ~ label {
+    border-color: #b8dbd9;
+}
+
+.radio-item [type="radio"]:checked ~ label::before {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
