@@ -9,15 +9,15 @@
     align-items: center;
     padding: 5px;
     background-color: rgba(248, 90, 70,1);
-    color: rgba(3,0,20,1);;
+    color: rgba(3,0,20,1);
     width: 40%;
     border-radius:5px;
     height: 40px;
 }
 
 .My-html-code {
-    background-color: rgba(216, 216, 217, 1);; 
-    color:  rgba(3,0,20,1);
+    background-color: rgba(3,0,20,1);
+    color: rgba(216, 216, 217, 1); 
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
