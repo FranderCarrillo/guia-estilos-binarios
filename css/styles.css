@@ -19,6 +19,17 @@ main{
 pre {
     display: flex;
 
-    border: 2px solid #f4f4f93b;
+    border: 2px solid #F85A4F3b;
     border-radius: 8px;
+}
+
+header{
+    max-width: 96%;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+
+
 }

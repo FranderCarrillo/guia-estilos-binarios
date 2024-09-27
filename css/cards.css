@@ -1,0 +1,238 @@
+.img-card {
+    background-color: #f5f5f9;
+    border-radius: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 15%;
+    height: 35%;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4px;
+
+}
+
+.img-card:hover {
+    transform: scale(1.05);
+}
+
+.img-card img {
+    height: 65%; 
+    width: 100%;
+    max-width: 95%; 
+    padding: 5px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.img-card-name {
+    width: 100%;
+    max-width: 90%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.img-card-name h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.img-card-text {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.img-card-text p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #555;
+}
+
+.img-card-date {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-card-date span {
+    font-size: 12px;
+    color: #999;
+}
+
+
+.service-card {
+    border: 2px solid #f5f5f9;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 18%;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container-img-service-card {
+    height: 20%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img-service-card img {
+    clip-path: circle();
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.name-service-card {
+    width: 100%;
+    max-width: 80%;
+    text-align: center;
+}
+
+.name-service-card h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.service-card-line-decoration {
+    height: 3px;
+    width: 20%;
+    background-color: #f85a4f;
+    border-radius: 2px;
+}
+
+.servica-card-text {
+    width: 100%;
+    max-width: 80%;
+    text-align: center;
+}
+
+.servica-card-text p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+
+
+.comment-card{
+    height: 100%;
+    width: 20%;
+    border-radius: 24px;
+}
+
+.container-photo{
+    height: 40%;
+    width: 100%;
+    background-color: #f5f5f9;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.backround-container-photo{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    background-color: #f85a4f;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.photo-perfil{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    clip-path: circle();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover; 
+
+    height: 100%;
+    width: 100%;
+}
+
+.container-comment{
+    height: 40%;
+    width: 100%;
+    background-color: #f5f5f9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+.container-comment p{
+    font-size: 16px; 
+    line-height: 2.0;
+    text-align: center;
+    max-width: 80%; 
+    color: #222;
+}
+
+.container-comment h3{
+    font-size: 24px; 
+    font-style: italic;
+    font-weight: bold;
+    color: #333;
+}
+
+.container-icons{
+    height: 10%;
+    width: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #f5f5f9;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-icons a{
+    color: #222;
+}
+
+.comment-card-icons .icon {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.comment-card-icons .icon:hover {
+    color: #555;
+}
