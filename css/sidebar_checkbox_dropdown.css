@@ -1,0 +1,61 @@
+.sidebar {
+    width: 150px;
+    height: 100%;
+    margin-right: 15px;
+    background-color: #586f7c;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    float:left
+    
+    
+  }
+
+
+  .sidebar p {
+    margin: 20px 0;
+    cursor: pointer;
+    
+
+}
+
+/* Settings dropdown */
+.settings-options {
+    display: none;
+    margin-left: 15px;
+    border: 2px;
+    border-radius: 5px;
+    color: #B8DBD9;
+}
+
+.settings-options li {
+    list-style: none;
+    color: black;
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: #f4f4f9;
+    border-radius: 3px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+/* Show dropdown on hover */
+.settings:hover .settings-options {
+    display: block;
+}
+
+
+  /* Checkbox */
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    
+    cursor: pointer;
+  }
+
+  /* Dropdown */
+  select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
