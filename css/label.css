@@ -5,18 +5,18 @@
 }
 #labe{
     background-color: rgba(88, 111, 124, 0.9);
-    width: 100px;
+    border: solid 2px #B8D8D9;
+    color: #B8D8D9;
+    border-radius: 15px;
+    width: 200px;
     height: 20px;
-    border-radius: 5px;
-    color: rgba(3,0,20,1);
-    border: solid 1px #B8D8D9;
+    padding: 12px 20px;
 }
 .My-html-code {
-    background-color: rgba(216, 216, 217, 1);; 
-    color:  rgba(3,0,20,1);
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
+    background-color: rgba(3,0,20,1); 
+    color: rgba(216, 216, 217, 1); 
     border: solid 2px  rgba(248, 90, 70,1);
     width: 25%;
+    padding: 10px;
+    border-radius: 5px;
 }
