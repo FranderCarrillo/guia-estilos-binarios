@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0.5em 0;
+    font-family: 'Monserrat', sans-serif; 
+}
+
+/* Estilo para h1 */
+h1 {
+    font-size: 3em; /* Tamaño del texto */
+    color: #586F7C; 
+    font-weight: 700; /* Peso de la fuente */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-align: center; 
+    text-shadow: 2px 2px 4px #F4F4F94d;/*Efecto de sombra*/
+}
+
+/* Estilo para h2 */
+h2 {
+    font-size: 2.5em; 
+    color: #030014;
+    font-weight: bolder;
+    border-left: 4px solid #586F7C; /* Línea lateral */
+    padding-left: 1em; /* Espacio a la izquierda */
+}
+
+h2:hover{
+    color:#586F7C;
+}
+
+/* Estilo para h3 */
+h3 {
+    font-size: 2em; 
+    color: #F4F4F9;
+    font-weight: bolder;
+    margin-top: 1.5em; /* Espacio superior */
+    /* background-color: #F4F4F9;  */
+    padding: 0.5em; /* Relleno */
+}
+
+/* Estilo para h4 */
+h4 {
+    font-size: 1.75em; 
+    color: #F4F4F9;
+    font-weight: bolder;
+    margin-top: 0.75em; 
+}

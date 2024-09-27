@@ -1,0 +1,29 @@
+.my-link:link{
+    color: #F85A4F;
+    text-decoration: none;
+}
+
+.my-link:visited{
+    color: #586F7C;
+    text-decoration: none;
+}
+
+.my-link:hover{
+    color: #b8dbd9;
+    text-decoration: underline;
+}
+
+.my-link:active{
+    color: #F85A4F;
+    text-decoration: none;
+}
+
+.my-divLink{
+    border: 2px solid #f4f4f93b;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+p{
+    margin: 10px;
+}
