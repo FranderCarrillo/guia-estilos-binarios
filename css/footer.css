@@ -105,5 +105,14 @@ footer {
     word-wrap: break-word;
 }
 
-
-
+#footer-guide pre {
+    height: 40%;
+    width: 90%;
+    overflow-y: auto; /* Hacerlo deslizable */
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 1rem;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
