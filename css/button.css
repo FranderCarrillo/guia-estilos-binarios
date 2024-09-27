@@ -1,0 +1,98 @@
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   }  
+   
+   #Botones{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 8px;
+       width: 20%;
+       padding: 9px;
+       font-family: "Montserrat", sans-serif;
+       /* border: solid 2px rgba(248, 90, 70,1); */
+   }
+   .btn-primary{
+       height: 30px;
+       width: 70%;
+       cursor: pointer;
+       border-radius: 10px;
+       border: solid 0.1px rgba(248, 90, 79, 0.5);
+       background-color: rgba(88, 111, 124, 0.9);
+       color: rgba(216, 216, 217, 1);
+     
+   }
+   .btn-primary:hover{
+       background-color:rgba(216, 216, 217, 1);
+       color: rgba(88, 111, 124, 0.9);
+       transition: 0.5s;
+   }
+   .btn-secondary{
+       height: 30px;
+       width: 60%;
+       cursor: pointer;
+       border-radius: 10px;
+       border: solid 0.1px rgba(248, 90, 79, 0.5);
+       background-color: rgba(88, 111, 124, 0.9);
+       color: rgba(216, 216, 217, 1); 
+   }
+   .btn-secondary:hover{
+        background-color:rgba(216, 216, 217, 1);
+       color: rgba(88, 111, 124, 0.9);
+       transition: 0.5s;
+   }
+   .btn-tertiary{
+       height: 30px;
+       width: 50%;
+       cursor: pointer;
+       border-radius: 10px;
+       border: solid 0.1px rgba(248, 90, 79, 0.5);
+       background-color: rgba(88, 111, 124, 0.9);
+       color: rgba(216, 216, 217, 1);
+   }
+   .btn-tertiary:hover{
+       background-color:rgba(216, 216, 217, 1);
+       color: rgba(88, 111, 124, 0.9);
+       transition: 0.5s;
+   }
+   .btn-destructive{
+       height: 30px;
+       width: 40%;
+       cursor: pointer;
+       border-radius: 10px;
+       border: solid 0.1px rgba(248, 90, 79, 0.5);
+       background-color: rgba(88, 111, 124, 0.9);
+       color: rgba(216, 216, 217, 1);
+       
+   }
+   .btn-destructive:hover{
+       background-color:rgba(216, 216, 217, 1);
+       color: rgba(88, 111, 124, 1);
+       transition: 0.5s;
+   }
+   .btn-disabled{
+       height: 30px;
+       width: 30%;
+       cursor: pointer;
+       border-radius: 10px;
+       border: solid 0.1px rgba(248, 90, 79, 0.5);
+       background-color: rgba(88, 111, 124, 0.9);
+       color: rgba(216, 216, 217, 1);
+   }
+   .btn-disabled:hover{
+       background-color:rgba(216, 216, 217, 1);
+       color: rgba(88, 111, 124, 1);
+       transition: 0.5s;
+   }
+   
+   #pre {
+       background-color: rgba(216, 216, 217, 1);; 
+       color:  rgba(3,0,20,1);
+       padding: 10px;
+       border-radius: 5px;
+       overflow-x: auto;
+       border: solid 2px  rgba(248, 90, 70,1);
+       width: 25%;
+   }
