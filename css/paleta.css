@@ -10,8 +10,8 @@
 }
 
 .colores{
-    display: flex;               /* Flexbox para centrado */
-    justify-content: center;      /* Centra horizontalmente */
+    display: flex;
+    justify-content: center;
     align-items: center;  
 
     height: 100%;
