@@ -8,12 +8,13 @@ body{/*
     color: rgb(244, 244, 249);
     font-family: "Montserrat", sans-serif;
 
-    display: grid;
-    grid-template-columns: 15% 1fr 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
-    grid-column: 2/3;
+    max-width: 70%;
 }
 
 pre {
